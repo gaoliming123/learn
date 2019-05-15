@@ -30,6 +30,7 @@ train.py   # train the model
 
 # 测试
 为了避免较大的运算量, 只选择几个汉字进行识别。
+
 **修改测试汉字**
 ```
 vi dataset.py +35
