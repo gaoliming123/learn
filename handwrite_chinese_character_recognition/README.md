@@ -49,6 +49,8 @@ vi train.py +16
  
 # 参考文献
 [Deep Convolutional Network for Handwritten Chinese Character Recognition](http://yuhao.im/files/Zhang_CNNChar.pdf)
+
 [PyTorch Custom Dataset Examples](https://github.com/utkuozbulak/pytorch-custom-dataset-examples)
-tensorflow手写汉字识别](http://blog.topspeedsnail.com/archives/10897)
+
+[tensorflow手写汉字识别](http://blog.topspeedsnail.com/archives/10897)
 
