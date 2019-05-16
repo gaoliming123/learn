@@ -14,6 +14,7 @@ torchvision-cpu 0.2.2
 cnn.py     # class of CNN
 dataset.py # class of load dataset
 train.py   # train the model
+cnn_hwdb_model.pkl # model 
 ```
 
 # 数据集
