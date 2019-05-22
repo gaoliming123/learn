@@ -36,8 +36,7 @@ def train(input_tensor, target_tensor, mask_input, mask_target, encoder, decoder
 
     ### train encoder
     for step_idx in range(BATCH_SIZE):
-        # reset the hidden status
-        # 否则会根据接着上一个句子计算
+        # must reset the hidden status
         encoder_hidden = encoder.initHidden()
         input_tensor_step = input_tensor[:, step_idx][input_tensor[:, step_idx] != 0]
         input_length = input_tensor_step.size(0)
