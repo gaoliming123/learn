@@ -11,7 +11,9 @@ visdom 0.1.8.8
 
 # dataset
 [Anki](Anki://apps.ankiweb.net/)
+
 [Tab-delimited Bilingual Sentence Pairs](http://www.manythings.org/anki/)
+
 [download fra-eng.zip](http://www.manythings.org/anki/fra-eng.zip)
 
 # directory
