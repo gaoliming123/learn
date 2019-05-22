@@ -1,7 +1,7 @@
 # seq2seq translate
 练习使用**seq2seq model**训练一些简单的数据
 
-# 环境
+# environment
 ```
 python 3.7.3
 pytroch-cpu 1.0.1
@@ -24,7 +24,7 @@ visdom 0.1.8.8
 
 ## train
 
-1. 启动visdom服务:`python -m visdom.server` 然后执行trian.py文件:`python train.py `
+1. start visdom service:`python -m visdom.server` execute trian.py:`python train.py `
 
 2. **修改参数** `vi config.py `
 
