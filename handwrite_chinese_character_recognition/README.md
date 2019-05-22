@@ -14,13 +14,16 @@ torchvision-cpu 0.2.2
 cnn.py     # class of CNN
 dataset.py # class of load dataset
 train.py   # train the model
+cnn_hwdb_model.pkl # model 
 ```
 
 # 数据集
 
 [HWDB1.1](http://www.nlpr.ia.ac.cn/databases/handwriting/Download.html)
 
+
 **样例**
+
 ![sample](./img/sample.png)
 
 **说明**
@@ -28,6 +31,7 @@ train.py   # train the model
 
 # 测试
 为了避免较大的运算量, 只选择几个汉字进行识别。
+
 **修改测试汉字**
 ```
 vi dataset.py +35
@@ -47,6 +51,8 @@ vi train.py +16
  
 # 参考文献
 [Deep Convolutional Network for Handwritten Chinese Character Recognition](http://yuhao.im/files/Zhang_CNNChar.pdf)
+
 [PyTorch Custom Dataset Examples](https://github.com/utkuozbulak/pytorch-custom-dataset-examples)
+
 [tensorflow手写汉字识别](http://blog.topspeedsnail.com/archives/10897)
 
