@@ -26,6 +26,7 @@ visdom 0.1.8.8
 2. **修改参数** `vi config.py `
 
 3. loss function
+
 ![loss function](./img/train_loss.svg)
 
 ## test
