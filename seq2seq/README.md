@@ -35,6 +35,9 @@ visdom 0.1.8.8
 ## test
 1. `python test.py`
 
+## result
+![result](./img/result.png)
+
 # 参考代码
 [sequence-to-sequence-from-scratch](https://github.com/astorfi/sequence-to-sequence-from-scratch)
 
