@@ -9,6 +9,7 @@ torchvision-cpu 0.2.2
 visdom 0.1.8.8
 tensorboardX 1.7
 ```
+代码已测试环境:Ubuntu 16.04 LTS
 
 ##  dataset
 
