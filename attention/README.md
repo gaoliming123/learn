@@ -57,7 +57,7 @@ tensorboardX 1.7
 ### test
 1. 如果不需要查看网络结构，则不需要执行这条命令。start tensorboardX service: `tensorboard --logdir runs`, **need tensorflow**, 附:[tensorboardX简单使用教程](https://github.com/tensor-yu/PyTorch_Tutorial)
 2. 测试: `python test.py`
-3. 较好的测试结果
+3. 测试结果
     * predict sentence
     ```
     fra input sentence: en ce moment je n etudie pas  EOS
