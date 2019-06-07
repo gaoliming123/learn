@@ -60,25 +60,15 @@ tensorboardX 1.7
 3. 测试结果
     * predict sentence
     ```
-    fra input sentence: en ce moment je n etudie pas  EOS
-    eng output sentence: i am not studying now  EOS
-    eng predicted output sentence: i am now not studying  EOS
+    fra input sentence: je suis desole si je vous ai derange  EOS
+    eng output sentence: i m sorry if i disturbed you  EOS
+    eng predicted output sentence: i m sorry if i disturbed you  EOS
     ```
 
     * attention weights
     
     ![result_1](./img/result_1.png)
 
-    * predict sentence
-    ```
-    fra input sentence: on n est jamais trop vieux pour apprendre  EOS
-    eng output sentence: you re never too old to learn  EOS
-    eng predicted output sentence: you re never too old to learn  EOS
-    ```
-
-    * attention weights
-    
-    ![result_2](./img/result_2.png)
 
 ## 参考文献
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)

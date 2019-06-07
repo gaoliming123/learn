@@ -83,7 +83,7 @@ def trainIters(encoder, decoder, print_every = 1000, learning_rate = 0.01):
 
     encoder_optimizer = optim.SGD(encoder.parameters(), lr = learning_rate)
     decoder_optimizer = optim.SGD(decoder.parameters(), lr = learning_rate)
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.NLLLoss()
     n_iters_per_epoch = int (len(trainset) / BATCH_SIZE)
 
     for i in range(EPOCH):
