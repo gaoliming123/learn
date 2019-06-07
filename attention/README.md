@@ -63,10 +63,10 @@ tensorboardX 1.7
     ```
 
     * attention weights
-    ![result_1.png]](./img/result_1.png)
+    
+    ![result_1](./img/result_1.png)
 
     * predict sentence
-
     ```
     fra input sentence: on n est jamais trop vieux pour apprendre  EOS
     eng output sentence: you re never too old to learn  EOS
@@ -74,10 +74,14 @@ tensorboardX 1.7
     ```
 
     * attention weights
-    ![result_2.png]](./img/result_2.png)
+    
+    ![result_2](./img/result_2.png)
 
 ## 参考文献
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)
+
 [translation with sequence to sequence network and attention](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
+
 [Pytorch模型训练实用教程](https://github.com/tensor-yu/PyTorch_Tutorial)
+
 [tensorboradX](https://github.com/lanpa/tensorboardX)
