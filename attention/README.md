@@ -46,7 +46,9 @@ tensorboardX 1.7
 1. start visdom service:`python -m visdom.server` execute trian.py:`python train.py `
 2. **修改参数** `vi config.py `
 3. loss function
+
 ![loss function](./img/loss.png)
+
 4. DecoderRNN with attention网络结构图
 
 ![graph](./img/graph.png)
