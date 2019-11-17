@@ -1,15 +1,10 @@
 # pytorch-LBSign
 
-##
-[博客讲解](https://gaoliming123.github.io/2019/11/13/ste/)
+## 讲解
+[pytorch实现简单的straight-through estimator(STE)](https://gaoliming123.github.io/2019/11/13/ste/)
 
-使用``torch.sign``的时候如果我们希望参数的梯度不是0而是可以对参数进行梯度更新，如果更新算法是根据``straight-through estimator``中如下公式更新:
-
-![](./images/0.png)
 ## Usage
-
-demo
-
+引入``LBSign``类即可
 ```
 from LBSign import LBSign
 
