@@ -7,7 +7,7 @@ Gumbel Softmax采样算法
 
 ## Usage
 
-使用方法，引入``GumbelSoftmax``类即可使用
+使用方法，引入``GumbelSoftmax``类即可
 ```
 >>> from gumbel_softmax import GumbelSoftmax
 >>> import torch
