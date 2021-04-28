@@ -15,7 +15,7 @@ class SmoothedHingeLoss(nn.Module):
        point = torch.tensor(.5).to(self.device)
        two = torch.tensor(2.).to(self.device)
        x1 = x[x_ >= one]
-      x1 = torch.zeros(*x1.shape).to(self.device)
+       x1 = torch.zeros(*x1.shape).to(self.device)
        x2 = x[x_ < zero]
        x2 = point - x2
        x3 = x[x_ >= zero]
@@ -36,12 +36,11 @@ class OrginHingeLoss(nn.Module):
          return loss
 
 class HingeMarginLoss(nn.Module):
-     def __init__(self, device):
-         self.device = device
-         super(HingeMarginLoss, self).__init__()
- 
-     def forward(self, pos, neg):
-         y = torch.cat([torch.ones(*pos.shape).to(self.device), - torch.ones(*neg.shape).to(self.device)], dim=0)
-         score = torch.cat([pos, neg], dim=0)
-         loss = torch.clamp(torch.tensor(1.).to(self.device) - y * score, min=0).mean()
-         return loss
+    def __init__(self, device, margin):
+        self.device = device
+        self.margin = margin.to(self.device)
+        super(HingeMarginLoss, self).__init__()
+
+    def forward(self, pos, neg):
+        loss = torch.clamp(self.margin - pos + neg, min=0).mean()
+        return loss
