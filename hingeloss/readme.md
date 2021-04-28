@@ -1,6 +1,8 @@
 # Smoothed Hinge Loss
 
 ## 公式
+![loss function](./img/smoothedhingeloss.png)
+公式中的``x``为 positive scores - negtive scores
 
 ## example
 
@@ -19,6 +21,7 @@ loss = hingeloss(pos_scores, neg_scores)
 # Orgin Hinge Loss
 
 ## 公式
+![loss function](./img/orginhingeloss.png)
 
 ## example
 
@@ -37,6 +40,7 @@ loss = hingeloss(pos_scores, neg_scores)
 # Variant Hinge Loss
 
 ## 公式
+![loss function](./img/hingemarginloss.png)
 
 ## example
 
