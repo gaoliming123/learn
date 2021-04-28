@@ -1,4 +1,5 @@
 import torch.nn as nn
+import torch
 
 class SmoothedHingeLoss(nn.Module):
     def __init__(self, device):
