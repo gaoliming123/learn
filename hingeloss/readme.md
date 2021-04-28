@@ -1,7 +1,7 @@
 # Smoothed Hinge Loss
 
 ## 公式
-![loss function](./img/smoothedhingeloss.png)
+![loss function](./img/smoothedhingeloss.png) \
 公式中的``x``为 positive scores - negtive scores
 
 ## example
