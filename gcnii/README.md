@@ -1,4 +1,4 @@
-## GCNII code, 基于dgl
+## GCNII代码, 基于dgl
 GCNII的官方代码实现：[GCNII官方实现](https://github.com/chennnM/GCNII) 
 
 ## 环境
